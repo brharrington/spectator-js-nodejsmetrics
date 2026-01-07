@@ -4,6 +4,9 @@
     'conditions': [
         [ 'OS=="mac" and node_module_version >= 115', {
             'osx_cpp_version': "17"
+        }],
+        [ 'OS=="mac" and node_module_version >= 130', {
+            'osx_cpp_version': "20"
         }]
     ]
   },
